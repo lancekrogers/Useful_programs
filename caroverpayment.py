@@ -13,6 +13,6 @@ try:
         return cost - original
 
     print("You will pay {} over the original amount of {} for the car with a {} year term and {} interest rate".format(overpay_for_car(cost, term, rate), cost, term, rate))
-
+    print('....................................................')
 except:
     print("Please provide system argments. \n.....................\nFormat: caroverpayment.py cost term interest_rate\n.....................")
